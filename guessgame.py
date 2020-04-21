@@ -15,7 +15,6 @@ def easy():
                 userGuess = int(input("Guess a number from 1 to 10: "))
                 if userGuess < 1 or userGuess > 10:
                     print("Guess is Out of Range!")
-                    userGuess = int(input("Guess a number from 1 to 10: "))
                     continue
                 else:
                     break
@@ -48,7 +47,6 @@ def medium():
                 userGuess = int(input("Guess a number from 1 to 20: "))
                 if userGuess < 1 or userGuess > 20:
                     print("Guess is Out of Range!")
-                    userGuess = int(input("Guess a number from 1 to 20: "))
                     continue
                 else:
                     break
@@ -81,7 +79,6 @@ def hard():
                 userGuess = int(input("Guess a number from 1 to 50: "))
                 if userGuess < 1 or userGuess > 50:
                     print("Guess is Out of Range!")
-                    userGuess = int(input("Guess a number from 1 to 50: "))
                     continue
                 else:
                     break
